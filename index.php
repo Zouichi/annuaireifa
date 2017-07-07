@@ -9,9 +9,10 @@
 </body>
 <?php
 $json_source = file_get_contents('list.json');
-$json_source = '{"nom":"", "prenom":"", "javascript":""}';
 $json_data = json_decode($json_source, true); 
+var_dump($json_data);
+	
+	print_r("$json_data \n");
 
-	echo $json_data['nom'].' '.$json_data['prenom'];
 ?>
 </html>
