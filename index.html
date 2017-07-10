@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Annuaire</title>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
+    <link href="styles.css" rel="stylesheet" media="all" type="text/css" />
+
+</head>
+
+<body>
+<ul id="liste"></ul>
+    
+    <!-- <script>
+    $.getJSON('list.json', function(data) {
+        var items = [];
+        $.each(data, function(key, val) {
+            items.push("<li id='" + key + "'>" + val + "</li>");
+        });
+
+        $("<ul/>", {
+            "class": "my-new-list",
+            html: items.join("")
+        }).appendTo("body");
+    });
+    </script> -->
+</body>
+    <script type="text/javascript" language="javascript" src="list.json"></script>
+    <script type="text/javascript" language="javascript" src="script.js"></script>
+
+</html>

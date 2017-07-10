@@ -1,4 +1,5 @@
-[
+var MyJson = {
+   "eleve" : [
  {
    "nom": "BOITEUX",
    "prenom": "Rémi",
@@ -144,3 +145,4 @@
    "contact_mail": "amelie.widloecher@gmail.com"
  }
 ]
+}

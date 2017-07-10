@@ -1,8 +1,8 @@
 body {
-	background-image: url('Background.jpg');
+	background-image:linear-gradient(#c0c0aa, #1cefff);
+	height: 100vh;
 }
 
-h1 {
-	text-align: center;
-	font-size: 1em;
+li {
+	list-style-type: none;
 }
