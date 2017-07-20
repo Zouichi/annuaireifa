@@ -1,7 +1,6 @@
-var MyJson = {
-   "eleve" : [
+var MyJson = [
  {
-   "id" : 1,
+   "id": 0,
    "nom": "BOITEUX",
    "prenom": "Rémi",
    "javascript": "Non",
@@ -14,8 +13,8 @@ var MyJson = {
    "contact_mail": "boiteux.remi@gmail.com"
  },
  {
-   "id" : 2,
-   "nom": "DOS SANTOS",
+   "id": 1,
+   "nom": "Dos Santos",
    "prenom": "Christophe",
    "javascript": "Pas d'expérience",
    "fav_web": "behance / themeforest",
@@ -27,7 +26,7 @@ var MyJson = {
    "contact_mail": "contact@christopheds.com Www.christopheds.com"
  },
  {
-   "id" : 3,
+   "id": 2,
    "nom": "GIRARD",
    "prenom": "Daniel",
    "javascript": "Déjà fait du javascript, Jquery AJAX",
@@ -40,7 +39,7 @@ var MyJson = {
    "contact_mail": "sikara57@gmail.com"
  },
  {
-   "id" : 4,
+   "id": 3,
    "nom": "HENRY-HAOUACHE",
    "prenom": "Sarah",
    "javascript": "jamais utilisé",
@@ -53,7 +52,7 @@ var MyJson = {
    "contact_mail": "shhaouache.gmail.com"
  },
  {
-   "id" : 5,
+   "id": 4,
    "nom": "JUNG",
    "prenom": "Pascal",
    "javascript": "Oui",
@@ -66,7 +65,7 @@ var MyJson = {
    "contact_mail": "paskal.jung@gmail.com"
  },
  {
-   "id" : 6,
+   "id": 5,
    "nom": "LAUER",
    "prenom": "Mathieu",
    "javascript": "Je n’ai jamais fait de Javascript",
@@ -79,7 +78,7 @@ var MyJson = {
    "contact_mail": "lauer.mathieu@orange.fr"
  },
  {
-   "id" : 7,
+   "id": 6,
    "nom": "LUSINCHI",
    "prenom": "Jordan",
    "javascript": "les bases",
@@ -92,7 +91,7 @@ var MyJson = {
    "contact_mail": "lusinchijordan@hotmail.fr"
  },
  {
-   "id" : 8,
+   "id": 7,
    "nom": "MARCEL",
    "prenom": "Isabelle",
    "javascript": "NON",
@@ -105,7 +104,7 @@ var MyJson = {
    "contact_mail": "webmiss54@gmail.com"
  },
  {
-   "id" : 9,
+   "id": 8,
    "nom": "MEDER",
    "prenom": "Thomas",
    "javascript": "Oui",
@@ -118,11 +117,11 @@ var MyJson = {
    "contact_mail": "thm.meder@gmail.com"
  },
  {
-   "id" : 10,
+   "id": 9,
    "nom": "MOURIES",
    "prenom": "Virginie",
    "javascript": "débutant, quelques bases",
-   "fav_web": "OpenClassRooms ;-)",
+   "fav_web": "OpenClassRooms ;-)",
    "fav_web_why": "par nécessité",
    "fav_app": "?",
    "fav_app_why": "",
@@ -131,7 +130,7 @@ var MyJson = {
    "contact_mail": "virginie.mouries@wanadoo.fr"
  },
  {
-   "id" : 11,
+   "id": 10,
    "nom": "PRUGNIERES",
    "prenom": "Johan",
    "javascript": "Oui",
@@ -144,7 +143,7 @@ var MyJson = {
    "contact_mail": "thm.meder@gmail.com"
  },
  {
-   "id" : 12,
+   "id": 11,
    "nom": "WIDLOECHER",
    "prenom": "Amélie",
    "javascript": "Des bases",
@@ -156,5 +155,4 @@ var MyJson = {
    "why_ifa": "Pour pouvoir avoir de l’expérience dans le domaine, et peut être trouver du travail plus facilement",
    "contact_mail": "amelie.widloecher@gmail.com"
  }
-]
-}
+];

@@ -1,0 +1,14 @@
+body {
+	background-image:linear-gradient(#1cefff, #c0c0aa);
+	height: 100vh;
+}
+
+.eleve{
+	color:red;
+}
+.display{
+	visibility: hidden;
+}
+.display.show{
+	visibility: visible;
+}
