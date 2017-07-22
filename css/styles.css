@@ -3,6 +3,10 @@ body {
 	height: 100vh;
 }
 
+h1 {
+	text-align: center;
+}
+
 .eleve{
 	color:red;
 }
@@ -11,4 +15,16 @@ body {
 }
 .display.show{
 	visibility: visible;
+}
+
+div.col-sm-8 {
+	margin-top: 34px;
+}
+
+div.col-sm-6 {
+	margin-left: 25%;
+}
+
+a.btn-primary {
+	position: relative;
 }
